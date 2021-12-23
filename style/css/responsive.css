@@ -1,0 +1,16 @@
+@media screen and (max-width:880px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .movie-show .container .btn_moreinfo{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .description{
+        width: 80%;
+    }
+}
